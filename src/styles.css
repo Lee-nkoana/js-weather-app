@@ -19,10 +19,11 @@ body{
 }
 
 h1{
-    font-size: 50px;
+    font-size: 60px;
+    margin: 0;
 }
 
-.header{
+.main-content{
     display: flex;
     width: 100%;
     justify-content: space-evenly;
@@ -30,4 +31,57 @@ h1{
 
 p{
     font-size: 20px;
+}
+
+input{
+    padding: 15px 10px;
+    font-size: 16px;
+    border-radius: 15px;
+    border: none;
+    width: 60%;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btnSearch{
+    padding: 15px 10px;
+    font-size: 16px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btnSearch:hover{
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+    
+}
+
+.weather-info{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.date{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.special{
+    color: green;
+}
+
+.temperature{
+    font-size: 80px;
+}
+
+.main-info{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 20px;
 }

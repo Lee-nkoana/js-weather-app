@@ -8,27 +8,29 @@
 </head>
 <body>
     <div class="container">
-        <div class="header">
-            <div>
-                <h1>Johannesburg</h1>
-                <p>Current date</p>
-            </div>
-            <div>
-               <h1>12℃</h1>
-            </div>
-        </div>
         <div>
             <form action="">
-                <input type="text">
-                <button type="submit">Search</button>
+                <input type="text" placeholder="Enter city name">
+                <button type="submit" class="btnSearch">Search</button>
             </form>
         </div>
-        <div>
-            <p><span>Humidity:</span> fdsd</p>
-            <p><span>wind speed:</span> dsdfsf</p>
+        <hr>
+        <div class="main-content">
+            <div class="main-info">
+                <h1 class="city">Johannesburg</h1>
+                <div >
+                    <h1 class="temperature"><span class="temperature-emoji">☀</span>12℃</h1>
+                 </div>
+            </div>
+            <div class="weather-info">
+                <p class="date">Current date</p>
+                <p>Humidity:<span class="special"> fdsd</span></p>
+                <p>Wind speed:<span class="special"> dsdfsf</span></p>
+            </div>
         </div>
+        <hr>
         <footer>
-            <p>This project was coded by:<a>Lebohang Nkoana</a>, github:<a>lee-nkoana</a></p>
+            <p>This project was coded by:<a>Lebohang Nkoana</a>, github: <a>@lee-nkoana</a></p>
         </footer>
     </div>
     <script src="src/script.js"></script>
