@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather</title>
     <link rel="stylesheet" href="src/styles.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 </head>
 <body>
     <div class="container">
@@ -14,17 +15,18 @@
                 <button type="submit"  class="btnSearch">Search</button>
             </form>
         </div>
+        <hr>
         <div class="main-content">
             <div class="main-info">
-                <h1 class="city" id="city">Johannesburg</h1>
+                <h1 class="city" id="city"></h1>
                 <div >
-                    <h1 class="temperature"><span class="temperature-emoji">☀</span>12℃</h1>
+                    <h1 class="temperature" ><span id="weather-icon"></span><span id="temperature"></span>℃</h1>
                  </div>
             </div>
             <div class="weather-info">
-                <p class="date">Current date</p>
-                <p>Humidity:<span class="special"> fdsd</span></p>
-                <p>Wind speed:<span class="special"> dsdfsf</span></p>
+                <p class="date" id="time"></p>
+                <p>Humidity:<span class="special" id="humidity"> </span></p>
+                <p>Wind speed:<span class="special" id="wind"> </span></p>
             </div>
         </div>
         <hr>

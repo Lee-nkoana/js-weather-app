@@ -31,6 +31,7 @@ h1{
 
 p{
     font-size: 20px;
+    margin: 10px;
 }
 
 input{
@@ -67,14 +68,16 @@ input{
 .date{
     font-size: 30px;
     font-weight: bold;
+    color: rgb(61, 57, 57);
 }
 
 .special{
-    color: green;
+    color: rgb(196, 12, 12);
 }
 
 .temperature{
     font-size: 80px;
+    color: rgb(61, 57, 57);
 }
 
 .main-info{
